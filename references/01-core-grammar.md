@@ -6,7 +6,7 @@ This file promotes recurring decisions from the corrected 20-work, ten-dimension
 
 When this corpus grammar is applied to a new photograph, `00-intent-contract.md` supplies the user-authored preservation and transformation boundary. The three-part preservation core is not corpus evidence and must not be presented as such. Core Grammar may reorganize the five permitted rewrite domains, but it may not silently weaken `identity_core`, applicable `gesture_pose`, `scene_idea`, or an explicit user lock. Exact photographic framing, perspective, placement, proportion, and local color are not preservation defaults.
 
-The source project retains the underlying research analyses. They are omitted from this self-contained runtime package.
+The underlying research analyses are not bundled or required for this self-contained runtime package. The rules below are application guidance, not a claim that a research archive is available here.
 
 `core-grammar-v0.1.md` and rejected generation operators are excluded from positive evidence. Portraits are H02, H08, H09, H13, H15, H17, H19; landscapes are H01, H03–H07, H10–H12, H14, H16, H18, H20.
 

@@ -1,9 +1,9 @@
 ---
-name: hockney-informed-photo-reconstruction
+name: expressive-watercolor-reconstruction
 description: Reconstruct one supplied real photograph of a living subject, place, object, product, vehicle, still life, or visible event through a source-specific selective-watercolor recipe with dominant-shape compression, explicit non-drawing, structural luminosity, ranked regional marks, and controlled pigment behavior. Use for direct photo reinterpretation or, only when explicitly requested, a final image prompt; do not use for screenshots, documents, charts, artwork inputs, generic watercolor filters, opaque digital repainting, poster layouts, or reference-art copying.
 ---
 
-# Hockney-Informed Photo Reconstruction
+# Expressive Watercolor Reconstruction
 
 Treat the photograph as evidence for minimum recognition and relation, not as an untouchable camera template. Preserve `identity_core`, applicable `gesture_pose`, and `scene_idea`; permit space, proportion, composition, color, and local form to be rewritten as one coherent act of selective observation.
 
@@ -44,7 +44,7 @@ If a living subject is only a replaceable scale cue, use `place_space`. If place
 8. Read `references/runtime-execution.md` immediately before Imagegen.
 9. Read `references/10-quality-gate.md` before returning or revising the raster.
 
-Development evidence is not part of this runtime package.
+This package is self-contained; no development archive is required during an ordinary run.
 
 ## Preserve only the three-part core
 
@@ -95,4 +95,4 @@ After an eligible revision, compare both rasters against all gates. Reject a rev
 
 For Direct Generate, follow the quality gate's delivery table: a candidate may be shown or retained with its visible limitations while its quality decision remains `fail`. User acceptance alone neither passes the quality gate nor authorizes another generation cycle. For Prompt Only, return the final four paragraphs without implying generation or inspection. Keep delivery brief and reveal internal schemas only when requested.
 
-This package is a v1.0 generalization candidate. Its loadability and packaging do not establish generalization or image-quality validation.
+This release is accepted for local use. Packaging checks and user acceptance do not establish complete image-quality validation across subjects; inspect each generated raster under `references/10-quality-gate.md`.

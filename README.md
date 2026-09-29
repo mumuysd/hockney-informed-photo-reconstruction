@@ -1,4 +1,4 @@
-# Hockney-Informed Photo Reconstruction
+# Expressive Watercolor Reconstruction
 
 > 一张照片，不必只换上一层水彩滤镜。
 
@@ -18,20 +18,20 @@
 
 ## 安装
 
-需要可使用内置 Imagegen 的 Codex 环境；此 Skill 不需要单独配置 API key。将仓库克隆到技能目录：
+需要可使用内置 Imagegen 的 Codex 环境；此 Skill 不需要单独配置 API key。首次安装时运行：
 
 ```bash
-git clone https://github.com/mumuysd/hockney-informed-photo-reconstruction.git "$HOME/.codex/skills/hockney-informed-photo-reconstruction"
+git clone https://github.com/mumuysd/expressive-watercolor-reconstruction.git "$HOME/.codex/skills/expressive-watercolor-reconstruction"
 ```
 
-在下一轮对话中使用新安装的 Skill。如果同名目录已存在，先检查原目录，再决定是否更新；安装命令不会覆盖它。
+在下一轮对话中使用新安装的 Skill。若同名目录已存在，安装命令会停止，不会覆盖原有文件；请先检查旧目录。
 
 ## 第一句话
 
 上传一张真实照片，然后直接说：
 
 ```text
-请用 hockney-informed-photo-reconstruction 重构这张照片。保留主体辨识核心和动作关系，让透明水彩色面与空间重组主导画面；只在表情、形体转折和接触点保留有变化的线条。不要添加文字。
+请用 expressive-watercolor-reconstruction 重构这张照片。保留主体辨识核心和动作关系，让透明水彩色面与空间重组主导画面；只在表情、形体转折和接触点保留有变化的线条。不要添加文字。
 ```
 
 有明确限制时，写在同一句话后面。例如：“这栋旧楼的墙脚必须自然落在道路上；车辆可以省略，但不要凭空补出整排门洞。” 如果只需要提示词，请写“只输出最终提示词，不生成图片”。
@@ -48,6 +48,6 @@ git clone https://github.com/mumuysd/hockney-informed-photo-reconstruction.git "
 
 `SKILL.md` 是入口，`references/` 存放运行规则，`README.md` 用于安装和使用说明。公开仓库不包含研究照片、研究笔记、测试图或验证记录。
 
-技能结构检查已经通过，**画面质量尚未全面验证**。已有内部测试显示人物、海岸和物体方向得到用户认可，但仍未满足全部严格质量门；建筑接地修复有所改善，重复细节与整体重构问题仍在。因此本版本仍是通用化候选，不能把可安装当成所有题材效果已达标。
+**当前版本已获用户验收，可在本地使用。** 技能结构检查已通过。内部实图检查仍发现建筑重复细节与遮挡处补画、海景局部细节和空间重构不足，因此严格画面质量门与跨题材泛化验证尚未全面通过。用户验收与这些实测结论分别记录；不把可安装或可使用写成所有题材效果已达标。
 
 名称说明：这是独立的用户创作规则，不代表 David Hockney 本人或其授权，也不要求复制其具体作品。
