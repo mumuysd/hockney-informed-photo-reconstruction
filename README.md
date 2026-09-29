@@ -15,7 +15,7 @@
 ![Status](https://img.shields.io/badge/status-Local%20Use%20Accepted-7c3aed)
 [![GitHub Repo stars](https://img.shields.io/github/stars/mumuysd/expressive-watercolor-reconstruction?style=flat&label=stars)](https://github.com/mumuysd/expressive-watercolor-reconstruction)
 
-[30 秒看懂](#30-秒看懂) · [快速开始](#快速开始) · [处理方式](#它怎样处理一张照片) · [适用场景](#适用场景) · [验证状态](#验证与当前状态)
+[30 秒看懂](#30-秒看懂) · [快速开始](#快速开始) · [处理方式](#它怎样处理一张照片) · [适用场景](#适用场景)
 
 </div>
 
@@ -125,15 +125,3 @@ expressive-watercolor-reconstruction/
 ```
 
 `SKILL.md` 是入口；`references/` 只包含运行规则。这个公开仓库不需要开发期研究资料或额外脚本才能执行。
-
-## 验证与当前状态
-
-可用 Codex 自带的校验脚本检查安装后的 Skill 结构：
-
-```bash
-python3 "$HOME/.codex/skills/.system/skill-creator/scripts/quick_validate.py" "$HOME/.codex/skills/expressive-watercolor-reconstruction"
-```
-
-**当前版本已获用户验收，可在本地使用；结构检查已通过。** 此前内部实图检查仍发现建筑重复细节与遮挡处补画、海景局部细节和空间重构不足。严格画面质量门和跨题材泛化验证尚未全面通过；结构校验也不能代替实际出图检查。
-
-这个项目是独立的照片创作规则，不代表 David Hockney 本人或其授权，也不要求复制其具体作品。
